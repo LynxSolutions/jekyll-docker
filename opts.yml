@@ -67,6 +67,7 @@ pkgs:
     - bash
     - openssh-client
     - lftp
+    - rsync
 
 gems:
   tag:

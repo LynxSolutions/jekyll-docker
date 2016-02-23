@@ -9,7 +9,7 @@ ENV \
   JEKYLL_VERSION=jekyll@3.0.2
 RUN \
   echo "builder" > /image && \
-  apk --update add zlib python libxml2 zlib-dev build-base libxslt-dev readline-dev ruby-io-console libxml2-dev libffi-dev ruby-dev yaml-dev readline libxslt ruby yaml libffi nodejs ruby-irb ruby-json ruby-rake ruby-rdoc nginx git bash openssh-client lftp rsync && \
+  apk --update add zlib python libxml2 zlib-dev build-base libxslt-dev readline-dev ruby-io-console libxml2-dev libffi-dev ruby-dev yaml-dev readline libxslt ruby yaml libffi nodejs ruby-irb ruby-json ruby-rake ruby-rdoc nginx git bash openssh-client lftp && \
 
 
 
